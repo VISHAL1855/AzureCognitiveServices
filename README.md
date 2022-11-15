@@ -4,8 +4,6 @@ Respective Flask or FASTAPI implementation with codes.<br />
 
 Azure service covered.<br />
 1) Form Recognizer <br />
-    Version 2 <br />
-    Version 3 <br />
 2)Computer vision <br />
 3)Custom vision <br />
 
