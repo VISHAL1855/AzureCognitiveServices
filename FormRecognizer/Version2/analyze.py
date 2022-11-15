@@ -9,9 +9,9 @@ from requests import get, post
 
 def runAnalysis(input_file):
     # Endpoint URL
-    endpoint = r"https://invoice1855.cognitiveservices.azure.com/"
+    endpoint = r"INSERT CREADENTIALS "
     # Subscription Key
-    apim_key = "1a89052829d84d43aa3358b74179acd6"
+    apim_key = "INSERT CREADENTIALS "
     # Model ID
     model_id = "0d74c885-e9df-4a06-bb34-25a507da229b"
     # API version
