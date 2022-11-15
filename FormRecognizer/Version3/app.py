@@ -14,8 +14,8 @@ def submit():
         f.save(secure_filename(f.filename))
         from azure.core.credentials import AzureKeyCredential
         from azure.ai.formrecognizer import DocumentAnalysisClient
-        endpoint = "https://invoice1855.cognitiveservices.azure.com/"
-        key = "1a89052829d84d43aa3358b74179acd6"
+        endpoint = "INSERT CREADENTIALS "
+        key = "INSERT CREADENTIALS "
 
         model_id = "Invoicerecogniser"
         #formUrl = "https://taxguru.in/wp-content/uploads/2018/10/amzinv1-e1539229186364.jpg"
