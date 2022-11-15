@@ -35,9 +35,9 @@ def scan():
     data=dict()
     def runAnalysis(input_file, output_file, file_type):
         # Endpoint URL
-        endpoint = r"https://invoice1855.cognitiveservices.azure.com/"
+        endpoint = r"INSERT CREADENTIALS "
         # Subscription Key
-        apim_key = "1a89052829d84d43aa3358b74179acd6"
+        apim_key = "INSERT CREADENTIALS "
         # Model ID
         model_id = "0d74c885-e9df-4a06-bb34-25a507da229b"
         post_url = endpoint + "/formrecognizer/v2.0/custom/models/%s/analyze" % model_id
