@@ -1,0 +1,1908 @@
+{
+  "analyzeResult": {
+    "documentResults": [
+      {
+        "docType": "custom:0d74c885-e9df-4a06-bb34-25a507da229b",
+        "docTypeConfidence": 0.868,
+        "fields": {
+          "Company": {
+            "boundingBox": [
+              67.0,
+              233.0,
+              221.0,
+              233.0,
+              221.0,
+              256.0,
+              67.0,
+              256.0
+            ],
+            "confidence": 0.888,
+            "elements": [
+              "#/readResults/0/lines/4/words/0",
+              "#/readResults/0/lines/4/words/1"
+            ],
+            "page": 1,
+            "text": "Sweet Honey",
+            "type": "string",
+            "valueString": "Sweet Honey"
+          },
+          "Date": {
+            "boundingBox": [
+              618.0,
+              381.0,
+              742.0,
+              381.0,
+              742.0,
+              401.0,
+              618.0,
+              401.0
+            ],
+            "confidence": 0.959,
+            "elements": [
+              "#/readResults/0/lines/8/words/1"
+            ],
+            "page": 1,
+            "text": "01/01/2019",
+            "type": "date"
+          },
+          "Invoice number": {
+            "boundingBox": [
+              66.0,
+              378.0,
+              277.0,
+              378.0,
+              277.0,
+              403.0,
+              66.0,
+              403.0
+            ],
+            "confidence": 0.873,
+            "elements": [
+              "#/readResults/0/lines/7/words/0",
+              "#/readResults/0/lines/7/words/1"
+            ],
+            "page": 1,
+            "text": "INVOICE# 004513",
+            "type": "number"
+          },
+          "Total": {
+            "boundingBox": [
+              685.0,
+              798.0,
+              739.0,
+              798.0,
+              739.0,
+              820.0,
+              685.0,
+              820.0
+            ],
+            "confidence": 0.751,
+            "elements": [
+              "#/readResults/0/lines/27/words/1"
+            ],
+            "page": 1,
+            "text": "$950",
+            "type": "number",
+            "valueNumber": 950.0
+          }
+        },
+        "modelId": "0d74c885-e9df-4a06-bb34-25a507da229b",
+        "pageRange": [
+          1,
+          1
+        ]
+      }
+    ],
+    "errors": [],
+    "pageResults": [
+      {
+        "page": 1,
+        "tables": [
+          {
+            "boundingBox": [
+              62,
+              458,
+              753,
+              458,
+              753,
+              705,
+              61,
+              705
+            ],
+            "cells": [
+              {
+                "boundingBox": [
+                  56,
+                  456,
+                  293,
+                  456,
+                  293,
+                  506,
+                  57,
+                  506
+                ],
+                "columnIndex": 0,
+                "elements": [
+                  "#/readResults/0/lines/9/words/0"
+                ],
+                "isHeader": true,
+                "rowIndex": 0,
+                "text": "Description"
+              },
+              {
+                "boundingBox": [
+                  293,
+                  456,
+                  487,
+                  456,
+                  487,
+                  506,
+                  293,
+                  506
+                ],
+                "columnIndex": 1,
+                "elements": [
+                  "#/readResults/0/lines/10/words/0"
+                ],
+                "isHeader": true,
+                "rowIndex": 0,
+                "text": "Price"
+              },
+              {
+                "boundingBox": [
+                  487,
+                  456,
+                  652,
+                  455,
+                  652,
+                  506,
+                  487,
+                  506
+                ],
+                "columnIndex": 2,
+                "elements": [
+                  "#/readResults/0/lines/11/words/0"
+                ],
+                "isHeader": true,
+                "rowIndex": 0,
+                "text": "Quantity"
+              },
+              {
+                "boundingBox": [
+                  652,
+                  455,
+                  754,
+                  455,
+                  754,
+                  506,
+                  652,
+                  506
+                ],
+                "columnIndex": 3,
+                "elements": [
+                  "#/readResults/0/lines/12/words/0"
+                ],
+                "isHeader": true,
+                "rowIndex": 0,
+                "text": "Total"
+              },
+              {
+                "boundingBox": [
+                  57,
+                  506,
+                  293,
+                  506,
+                  293,
+                  578,
+                  57,
+                  578
+                ],
+                "columnIndex": 0,
+                "elements": [
+                  "#/readResults/0/lines/13/words/0",
+                  "#/readResults/0/lines/13/words/1"
+                ],
+                "isHeader": false,
+                "rowIndex": 1,
+                "text": "Item 1"
+              },
+              {
+                "boundingBox": [
+                  293,
+                  506,
+                  487,
+                  506,
+                  488,
+                  578,
+                  293,
+                  578
+                ],
+                "columnIndex": 1,
+                "elements": [
+                  "#/readResults/0/lines/14/words/0"
+                ],
+                "isHeader": false,
+                "rowIndex": 1,
+                "text": "$100"
+              },
+              {
+                "boundingBox": [
+                  487,
+                  506,
+                  652,
+                  506,
+                  653,
+                  578,
+                  488,
+                  578
+                ],
+                "columnIndex": 2,
+                "elements": [
+                  "#/readResults/0/lines/15/words/0"
+                ],
+                "isHeader": false,
+                "rowIndex": 1,
+                "text": "1"
+              },
+              {
+                "boundingBox": [
+                  652,
+                  506,
+                  754,
+                  506,
+                  754,
+                  577,
+                  653,
+                  578
+                ],
+                "columnIndex": 3,
+                "elements": [
+                  "#/readResults/0/lines/16/words/0"
+                ],
+                "isHeader": false,
+                "rowIndex": 1,
+                "text": "$100"
+              },
+              {
+                "boundingBox": [
+                  57,
+                  578,
+                  293,
+                  578,
+                  293,
+                  640,
+                  57,
+                  639
+                ],
+                "columnIndex": 0,
+                "elements": [
+                  "#/readResults/0/lines/17/words/0",
+                  "#/readResults/0/lines/17/words/1"
+                ],
+                "isHeader": false,
+                "rowIndex": 2,
+                "text": "Item 2"
+              },
+              {
+                "boundingBox": [
+                  293,
+                  578,
+                  488,
+                  578,
+                  488,
+                  640,
+                  293,
+                  640
+                ],
+                "columnIndex": 1,
+                "elements": [
+                  "#/readResults/0/lines/18/words/0"
+                ],
+                "isHeader": false,
+                "rowIndex": 2,
+                "text": "$300"
+              },
+              {
+                "boundingBox": [
+                  488,
+                  578,
+                  653,
+                  578,
+                  653,
+                  639,
+                  488,
+                  640
+                ],
+                "columnIndex": 2,
+                "elements": [
+                  "#/readResults/0/lines/19/words/0"
+                ],
+                "isHeader": false,
+                "rowIndex": 2,
+                "text": "1"
+              },
+              {
+                "boundingBox": [
+                  653,
+                  578,
+                  754,
+                  577,
+                  755,
+                  639,
+                  653,
+                  639
+                ],
+                "columnIndex": 3,
+                "elements": [
+                  "#/readResults/0/lines/20/words/0"
+                ],
+                "isHeader": false,
+                "rowIndex": 2,
+                "text": "$300"
+              },
+              {
+                "boundingBox": [
+                  57,
+                  639,
+                  293,
+                  640,
+                  292,
+                  708,
+                  57,
+                  705
+                ],
+                "columnIndex": 0,
+                "elements": [
+                  "#/readResults/0/lines/21/words/0",
+                  "#/readResults/0/lines/21/words/1"
+                ],
+                "isHeader": false,
+                "rowIndex": 3,
+                "text": "Item 3"
+              },
+              {
+                "boundingBox": [
+                  293,
+                  640,
+                  488,
+                  640,
+                  489,
+                  708,
+                  292,
+                  708
+                ],
+                "columnIndex": 1,
+                "elements": [
+                  "#/readResults/0/lines/22/words/0"
+                ],
+                "isHeader": false,
+                "rowIndex": 3,
+                "text": "$500"
+              },
+              {
+                "boundingBox": [
+                  488,
+                  640,
+                  653,
+                  639,
+                  653,
+                  708,
+                  489,
+                  708
+                ],
+                "columnIndex": 2,
+                "elements": [
+                  "#/readResults/0/lines/23/words/0"
+                ],
+                "isHeader": false,
+                "rowIndex": 3,
+                "text": "1"
+              },
+              {
+                "boundingBox": [
+                  653,
+                  639,
+                  755,
+                  639,
+                  755,
+                  709,
+                  653,
+                  708
+                ],
+                "columnIndex": 3,
+                "elements": [
+                  "#/readResults/0/lines/24/words/0"
+                ],
+                "isHeader": false,
+                "rowIndex": 3,
+                "text": "$500"
+              }
+            ],
+            "columns": 4,
+            "rows": 4
+          }
+        ]
+      }
+    ],
+    "readResults": [
+      {
+        "angle": -0.1358,
+        "height": 1056,
+        "lines": [
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              63,
+              93,
+              357,
+              92,
+              358,
+              147,
+              63,
+              149
+            ],
+            "text": "INVOICE",
+            "words": [
+              {
+                "boundingBox": [
+                  64,
+                  95,
+                  336,
+                  94,
+                  335,
+                  148,
+                  64,
+                  150
+                ],
+                "confidence": 0.992,
+                "text": "INVOICE"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              625,
+              81,
+              752,
+              80,
+              752,
+              100,
+              625,
+              101
+            ],
+            "text": "(719) 686-1283",
+            "words": [
+              {
+                "boundingBox": [
+                  626,
+                  82,
+                  666,
+                  82,
+                  665,
+                  101,
+                  626,
+                  101
+                ],
+                "confidence": 0.993,
+                "text": "(719)"
+              },
+              {
+                "boundingBox": [
+                  669,
+                  82,
+                  751,
+                  81,
+                  750,
+                  100,
+                  669,
+                  101
+                ],
+                "confidence": 0.995,
+                "text": "686-1283"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              555,
+              111,
+              752,
+              112,
+              752,
+              130,
+              555,
+              129
+            ],
+            "text": "www.sweethoney.com",
+            "words": [
+              {
+                "boundingBox": [
+                  556,
+                  114,
+                  742,
+                  112,
+                  742,
+                  131,
+                  557,
+                  128
+                ],
+                "confidence": 0.979,
+                "text": "www.sweethoney.com"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              539,
+              141,
+              752,
+              140,
+              752,
+              158,
+              539,
+              159
+            ],
+            "text": "sweethoney@email.com",
+            "words": [
+              {
+                "boundingBox": [
+                  540,
+                  142,
+                  743,
+                  141,
+                  743,
+                  159,
+                  541,
+                  158
+                ],
+                "confidence": 0.994,
+                "text": "sweethoney@email.com"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              67,
+              232,
+              226,
+              233,
+              225,
+              256,
+              67,
+              254
+            ],
+            "text": "Sweet Honey",
+            "words": [
+              {
+                "boundingBox": [
+                  67,
+                  233,
+                  139,
+                  233,
+                  139,
+                  255,
+                  67,
+                  254
+                ],
+                "confidence": 0.996,
+                "text": "Sweet"
+              },
+              {
+                "boundingBox": [
+                  144,
+                  233,
+                  221,
+                  234,
+                  221,
+                  256,
+                  143,
+                  255
+                ],
+                "confidence": 0.996,
+                "text": "Honey"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              67,
+              273,
+              327,
+              272,
+              327,
+              292,
+              67,
+              293
+            ],
+            "text": "380 Paradise Cir #APT A6",
+            "words": [
+              {
+                "boundingBox": [
+                  68,
+                  275,
+                  99,
+                  274,
+                  100,
+                  293,
+                  69,
+                  292
+                ],
+                "confidence": 0.997,
+                "text": "380"
+              },
+              {
+                "boundingBox": [
+                  108,
+                  274,
+                  192,
+                  274,
+                  192,
+                  293,
+                  108,
+                  293
+                ],
+                "confidence": 0.995,
+                "text": "Paradise"
+              },
+              {
+                "boundingBox": [
+                  199,
+                  274,
+                  231,
+                  273,
+                  231,
+                  293,
+                  199,
+                  293
+                ],
+                "confidence": 0.997,
+                "text": "Cir"
+              },
+              {
+                "boundingBox": [
+                  235,
+                  273,
+                  290,
+                  273,
+                  289,
+                  293,
+                  235,
+                  293
+                ],
+                "confidence": 0.994,
+                "text": "#APT"
+              },
+              {
+                "boundingBox": [
+                  297,
+                  273,
+                  322,
+                  273,
+                  322,
+                  293,
+                  297,
+                  293
+                ],
+                "confidence": 0.998,
+                "text": "A6"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              67,
+              305,
+              439,
+              305,
+              439,
+              326,
+              67,
+              326
+            ],
+            "text": "Woodland Park, Colorado(CO), 80863",
+            "words": [
+              {
+                "boundingBox": [
+                  67,
+                  307,
+                  163,
+                  307,
+                  164,
+                  326,
+                  68,
+                  325
+                ],
+                "confidence": 0.995,
+                "text": "Woodland"
+              },
+              {
+                "boundingBox": [
+                  172,
+                  307,
+                  224,
+                  307,
+                  225,
+                  327,
+                  172,
+                  326
+                ],
+                "confidence": 0.996,
+                "text": "Park,"
+              },
+              {
+                "boundingBox": [
+                  228,
+                  307,
+                  371,
+                  306,
+                  372,
+                  327,
+                  228,
+                  327
+                ],
+                "confidence": 0.98,
+                "text": "Colorado(CO),"
+              },
+              {
+                "boundingBox": [
+                  375,
+                  306,
+                  437,
+                  306,
+                  437,
+                  327,
+                  375,
+                  327
+                ],
+                "confidence": 0.996,
+                "text": "80863"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              66,
+              378,
+              277,
+              377,
+              278,
+              402,
+              66,
+              402
+            ],
+            "text": "INVOICE# 004513",
+            "words": [
+              {
+                "boundingBox": [
+                  66,
+                  379,
+                  177,
+                  379,
+                  177,
+                  403,
+                  66,
+                  403
+                ],
+                "confidence": 0.994,
+                "text": "INVOICE#"
+              },
+              {
+                "boundingBox": [
+                  189,
+                  379,
+                  277,
+                  378,
+                  277,
+                  402,
+                  188,
+                  403
+                ],
+                "confidence": 0.994,
+                "text": "004513"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              555,
+              381,
+              744,
+              380,
+              744,
+              400,
+              555,
+              401
+            ],
+            "text": "DATE 01/01/2019",
+            "words": [
+              {
+                "boundingBox": [
+                  556,
+                  381,
+                  610,
+                  381,
+                  610,
+                  402,
+                  556,
+                  402
+                ],
+                "confidence": 0.994,
+                "text": "DATE"
+              },
+              {
+                "boundingBox": [
+                  618,
+                  381,
+                  742,
+                  381,
+                  742,
+                  401,
+                  618,
+                  401
+                ],
+                "confidence": 0.99,
+                "text": "01/01/2019"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              66,
+              466,
+              193,
+              466,
+              193,
+              490,
+              66,
+              490
+            ],
+            "text": "Description",
+            "words": [
+              {
+                "boundingBox": [
+                  66,
+                  466,
+                  189,
+                  467,
+                  190,
+                  491,
+                  66,
+                  490
+                ],
+                "confidence": 0.991,
+                "text": "Description"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              394,
+              467,
+              450,
+              468,
+              449,
+              486,
+              394,
+              486
+            ],
+            "text": "Price",
+            "words": [
+              {
+                "boundingBox": [
+                  394,
+                  467,
+                  447,
+                  467,
+                  446,
+                  486,
+                  394,
+                  485
+                ],
+                "confidence": 0.994,
+                "text": "Price"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              523,
+              467,
+              621,
+              468,
+              621,
+              490,
+              523,
+              488
+            ],
+            "text": "Quantity",
+            "words": [
+              {
+                "boundingBox": [
+                  524,
+                  468,
+                  618,
+                  469,
+                  617,
+                  491,
+                  524,
+                  488
+                ],
+                "confidence": 0.994,
+                "text": "Quantity"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              686,
+              467,
+              744,
+              467,
+              744,
+              486,
+              686,
+              486
+            ],
+            "text": "Total",
+            "words": [
+              {
+                "boundingBox": [
+                  688,
+                  467,
+                  744,
+                  467,
+                  744,
+                  487,
+                  687,
+                  486
+                ],
+                "confidence": 0.996,
+                "text": "Total"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              67,
+              538,
+              128,
+              538,
+              128,
+              556,
+              67,
+              556
+            ],
+            "text": "Item 1",
+            "words": [
+              {
+                "boundingBox": [
+                  68,
+                  538,
+                  101,
+                  539,
+                  101,
+                  556,
+                  67,
+                  556
+                ],
+                "confidence": 0.529,
+                "text": "Item"
+              },
+              {
+                "boundingBox": [
+                  115,
+                  539,
+                  126,
+                  539,
+                  125,
+                  556,
+                  115,
+                  556
+                ],
+                "confidence": 0.996,
+                "text": "1"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              395,
+              536,
+              447,
+              536,
+              447,
+              556,
+              395,
+              557
+            ],
+            "text": "$100",
+            "words": [
+              {
+                "boundingBox": [
+                  396,
+                  536,
+                  443,
+                  536,
+                  443,
+                  557,
+                  396,
+                  557
+                ],
+                "confidence": 0.994,
+                "text": "$100"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.821,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              565,
+              539,
+              579,
+              541,
+              579,
+              555,
+              565,
+              553
+            ],
+            "text": "1",
+            "words": [
+              {
+                "boundingBox": [
+                  569,
+                  539,
+                  577,
+                  541,
+                  575,
+                  554,
+                  567,
+                  553
+                ],
+                "confidence": 0.962,
+                "text": "1"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              691,
+              536,
+              743,
+              536,
+              743,
+              556,
+              692,
+              557
+            ],
+            "text": "$100",
+            "words": [
+              {
+                "boundingBox": [
+                  692,
+                  536,
+                  739,
+                  536,
+                  739,
+                  557,
+                  692,
+                  557
+                ],
+                "confidence": 0.994,
+                "text": "$100"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              68,
+              599,
+              131,
+              599,
+              131,
+              617,
+              68,
+              617
+            ],
+            "text": "Item 2",
+            "words": [
+              {
+                "boundingBox": [
+                  68,
+                  600,
+                  100,
+                  600,
+                  100,
+                  618,
+                  68,
+                  617
+                ],
+                "confidence": 0.531,
+                "text": "Item"
+              },
+              {
+                "boundingBox": [
+                  117,
+                  599,
+                  126,
+                  599,
+                  126,
+                  618,
+                  116,
+                  618
+                ],
+                "confidence": 0.997,
+                "text": "2"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              394,
+              598,
+              449,
+              598,
+              449,
+              618,
+              393,
+              619
+            ],
+            "text": "$300",
+            "words": [
+              {
+                "boundingBox": [
+                  394,
+                  598,
+                  445,
+                  598,
+                  445,
+                  619,
+                  394,
+                  619
+                ],
+                "confidence": 0.994,
+                "text": "$300"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              565,
+              601,
+              579,
+              602,
+              579,
+              615,
+              565,
+              615
+            ],
+            "text": "1",
+            "words": [
+              {
+                "boundingBox": [
+                  568,
+                  601,
+                  577,
+                  601,
+                  576,
+                  615,
+                  568,
+                  615
+                ],
+                "confidence": 0.995,
+                "text": "1"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              687,
+              598,
+              743,
+              598,
+              742,
+              618,
+              686,
+              619
+            ],
+            "text": "$300",
+            "words": [
+              {
+                "boundingBox": [
+                  687,
+                  598,
+                  738,
+                  598,
+                  738,
+                  619,
+                  687,
+                  619
+                ],
+                "confidence": 0.994,
+                "text": "$300"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              67,
+              660,
+              130,
+              659,
+              130,
+              677,
+              67,
+              678
+            ],
+            "text": "Item 3",
+            "words": [
+              {
+                "boundingBox": [
+                  68,
+                  660,
+                  101,
+                  660,
+                  100,
+                  678,
+                  68,
+                  678
+                ],
+                "confidence": 0.529,
+                "text": "Item"
+              },
+              {
+                "boundingBox": [
+                  116,
+                  660,
+                  126,
+                  660,
+                  126,
+                  678,
+                  116,
+                  678
+                ],
+                "confidence": 0.997,
+                "text": "3"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              393,
+              661,
+              449,
+              660,
+              449,
+              680,
+              394,
+              681
+            ],
+            "text": "$500",
+            "words": [
+              {
+                "boundingBox": [
+                  394,
+                  661,
+                  445,
+                  660,
+                  446,
+                  680,
+                  394,
+                  681
+                ],
+                "confidence": 0.994,
+                "text": "$500"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              568,
+              660,
+              578,
+              661,
+              578,
+              679,
+              569,
+              679
+            ],
+            "text": "1",
+            "words": [
+              {
+                "boundingBox": [
+                  568,
+                  660,
+                  577,
+                  660,
+                  576,
+                  679,
+                  568,
+                  678
+                ],
+                "confidence": 0.997,
+                "text": "1"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              687,
+              661,
+              742,
+              660,
+              742,
+              680,
+              687,
+              681
+            ],
+            "text": "$500",
+            "words": [
+              {
+                "boundingBox": [
+                  688,
+                  661,
+                  738,
+                  660,
+                  738,
+                  680,
+                  688,
+                  681
+                ],
+                "confidence": 0.994,
+                "text": "$500"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              589,
+              732,
+              742,
+              731,
+              742,
+              751,
+              589,
+              752
+            ],
+            "text": "Subtotal $900",
+            "words": [
+              {
+                "boundingBox": [
+                  591,
+                  732,
+                  681,
+                  732,
+                  681,
+                  752,
+                  591,
+                  753
+                ],
+                "confidence": 0.994,
+                "text": "Subtotal"
+              },
+              {
+                "boundingBox": [
+                  685,
+                  732,
+                  739,
+                  732,
+                  739,
+                  752,
+                  685,
+                  752
+                ],
+                "confidence": 0.994,
+                "text": "$900"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              646,
+              765,
+              743,
+              765,
+              743,
+              786,
+              646,
+              786
+            ],
+            "text": "Tax $50",
+            "words": [
+              {
+                "boundingBox": [
+                  647,
+                  766,
+                  683,
+                  766,
+                  682,
+                  787,
+                  647,
+                  786
+                ],
+                "confidence": 0.994,
+                "text": "Tax"
+              },
+              {
+                "boundingBox": [
+                  700,
+                  766,
+                  738,
+                  765,
+                  737,
+                  787,
+                  700,
+                  787
+                ],
+                "confidence": 0.998,
+                "text": "$50"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              623,
+              799,
+              743,
+              798,
+              743,
+              819,
+              624,
+              820
+            ],
+            "text": "Total $950",
+            "words": [
+              {
+                "boundingBox": [
+                  625,
+                  800,
+                  681,
+                  799,
+                  680,
+                  820,
+                  625,
+                  821
+                ],
+                "confidence": 0.996,
+                "text": "Total"
+              },
+              {
+                "boundingBox": [
+                  685,
+                  799,
+                  739,
+                  798,
+                  738,
+                  820,
+                  685,
+                  820
+                ],
+                "confidence": 0.994,
+                "text": "$950"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              66,
+              886,
+              360,
+              886,
+              360,
+              907,
+              66,
+              907
+            ],
+            "text": "PAYMENT INFORMATION",
+            "words": [
+              {
+                "boundingBox": [
+                  67,
+                  887,
+                  180,
+                  887,
+                  180,
+                  908,
+                  67,
+                  908
+                ],
+                "confidence": 0.994,
+                "text": "PAYMENT"
+              },
+              {
+                "boundingBox": [
+                  187,
+                  887,
+                  350,
+                  887,
+                  350,
+                  908,
+                  187,
+                  908
+                ],
+                "confidence": 0.994,
+                "text": "INFORMATION"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              67,
+              937,
+              286,
+              937,
+              286,
+              955,
+              67,
+              955
+            ],
+            "text": "Name: Howard P. Cruz",
+            "words": [
+              {
+                "boundingBox": [
+                  67,
+                  938,
+                  126,
+                  938,
+                  126,
+                  956,
+                  67,
+                  956
+                ],
+                "confidence": 0.996,
+                "text": "Name:"
+              },
+              {
+                "boundingBox": [
+                  130,
+                  937,
+                  205,
+                  937,
+                  205,
+                  956,
+                  130,
+                  956
+                ],
+                "confidence": 0.996,
+                "text": "Howard"
+              },
+              {
+                "boundingBox": [
+                  214,
+                  937,
+                  233,
+                  937,
+                  233,
+                  956,
+                  213,
+                  956
+                ],
+                "confidence": 0.996,
+                "text": "P."
+              },
+              {
+                "boundingBox": [
+                  237,
+                  937,
+                  284,
+                  938,
+                  284,
+                  956,
+                  237,
+                  956
+                ],
+                "confidence": 0.993,
+                "text": "Cruz"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              68,
+              970,
+              363,
+              969,
+              363,
+              987,
+              68,
+              989
+            ],
+            "text": "Account: 5295 8280 7728 1126",
+            "words": [
+              {
+                "boundingBox": [
+                  68,
+                  971,
+                  154,
+                  970,
+                  154,
+                  989,
+                  68,
+                  989
+                ],
+                "confidence": 0.994,
+                "text": "Account:"
+              },
+              {
+                "boundingBox": [
+                  157,
+                  970,
+                  205,
+                  969,
+                  205,
+                  989,
+                  157,
+                  989
+                ],
+                "confidence": 0.994,
+                "text": "5295"
+              },
+              {
+                "boundingBox": [
+                  211,
+                  969,
+                  259,
+                  969,
+                  258,
+                  989,
+                  211,
+                  989
+                ],
+                "confidence": 0.991,
+                "text": "8280"
+              },
+              {
+                "boundingBox": [
+                  269,
+                  969,
+                  312,
+                  969,
+                  312,
+                  988,
+                  269,
+                  989
+                ],
+                "confidence": 0.991,
+                "text": "7728"
+              },
+              {
+                "boundingBox": [
+                  321,
+                  969,
+                  359,
+                  969,
+                  359,
+                  988,
+                  321,
+                  988
+                ],
+                "confidence": 0.993,
+                "text": "1126"
+              }
+            ]
+          }
+        ],
+        "page": 1,
+        "selectionMarks": [
+          {
+            "boundingBox": [
+              211,
+              239,
+              221,
+              239,
+              221,
+              256,
+              211,
+              256
+            ],
+            "confidence": 0.251,
+            "state": "selected"
+          },
+          {
+            "boundingBox": [
+              191,
+              379,
+              209,
+              379,
+              209,
+              401,
+              191,
+              401
+            ],
+            "confidence": 0.223,
+            "state": "unselected"
+          }
+        ],
+        "unit": "pixel",
+        "width": 816
+      }
+    ],
+    "version": "2.1.0"
+  },
+  "createdDateTime": "2022-09-15T17:21:11Z",
+  "lastUpdatedDateTime": "2022-09-15T17:21:15Z",
+  "status": "succeeded"
+}

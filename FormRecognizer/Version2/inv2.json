@@ -1,0 +1,3269 @@
+{
+  "analyzeResult": {
+    "documentResults": [
+      {
+        "docType": "custom:0d74c885-e9df-4a06-bb34-25a507da229b",
+        "docTypeConfidence": 0.765,
+        "fields": {
+          "Company": {
+            "boundingBox": [
+              289.0,
+              18.0,
+              384.0,
+              18.0,
+              384.0,
+              27.0,
+              289.0,
+              27.0
+            ],
+            "confidence": 0.907,
+            "elements": [
+              "#/readResults/0/lines/1/words/0",
+              "#/readResults/0/lines/1/words/1",
+              "#/readResults/0/lines/1/words/2",
+              "#/readResults/0/lines/1/words/3"
+            ],
+            "page": 1,
+            "text": "Welder Dry Clean Services",
+            "type": "string",
+            "valueString": "Welder Dry Clean Services"
+          },
+          "Date": {
+            "boundingBox": [
+              40.0,
+              126.0,
+              122.0,
+              126.0,
+              122.0,
+              148.0,
+              40.0,
+              148.0
+            ],
+            "confidence": 0.251,
+            "elements": [
+              "#/readResults/0/lines/9/words/1",
+              "#/readResults/0/lines/9/words/2",
+              "#/readResults/0/lines/9/words/3",
+              "#/readResults/0/lines/9/words/4",
+              "#/readResults/0/lines/9/words/5",
+              "#/readResults/0/lines/11/words/1",
+              "#/readResults/0/lines/11/words/2",
+              "#/readResults/0/lines/11/words/3",
+              "#/readResults/0/lines/11/words/4",
+              "#/readResults/0/lines/11/words/5"
+            ],
+            "page": 1,
+            "text": "May - 26 - 2025 Jun - 06 - 2025",
+            "type": "date"
+          },
+          "Invoice number": {
+            "boundingBox": [
+              98.0,
+              114.0,
+              134.0,
+              114.0,
+              134.0,
+              125.0,
+              98.0,
+              125.0
+            ],
+            "confidence": 0.948,
+            "elements": [
+              "#/readResults/0/lines/7/words/2"
+            ],
+            "page": 1,
+            "text": "255593",
+            "type": "number",
+            "valueNumber": 255593.0
+          },
+          "Total": {
+            "boundingBox": [
+              66.0,
+              420.0,
+              99.0,
+              420.0,
+              99.0,
+              435.0,
+              66.0,
+              435.0
+            ],
+            "confidence": 0.953,
+            "elements": [
+              "#/readResults/0/lines/42/words/1"
+            ],
+            "page": 1,
+            "text": "$176",
+            "type": "number",
+            "valueNumber": 176.0
+          }
+        },
+        "modelId": "0d74c885-e9df-4a06-bb34-25a507da229b",
+        "pageRange": [
+          1,
+          1
+        ]
+      }
+    ],
+    "errors": [],
+    "pageResults": [
+      {
+        "page": 1,
+        "tables": [
+          {
+            "boundingBox": [
+              13,
+              222,
+              385,
+              223,
+              385,
+              311,
+              13,
+              310
+            ],
+            "cells": [
+              {
+                "boundingBox": [
+                  0,
+                  205,
+                  211,
+                  205,
+                  211,
+                  243,
+                  0,
+                  244
+                ],
+                "columnIndex": 0,
+                "elements": [
+                  "#/readResults/0/lines/16/words/0"
+                ],
+                "isHeader": true,
+                "rowIndex": 0,
+                "text": "Description"
+              },
+              {
+                "boundingBox": [
+                  211,
+                  205,
+                  284,
+                  205,
+                  283,
+                  243,
+                  211,
+                  243
+                ],
+                "columnIndex": 1,
+                "elements": [
+                  "#/readResults/0/lines/17/words/0",
+                  "#/readResults/0/lines/17/words/1"
+                ],
+                "isHeader": true,
+                "rowIndex": 0,
+                "text": "Unit Cost"
+              },
+              {
+                "boundingBox": [
+                  284,
+                  205,
+                  331,
+                  204,
+                  331,
+                  243,
+                  283,
+                  243
+                ],
+                "columnIndex": 2,
+                "elements": [
+                  "#/readResults/0/lines/18/words/0"
+                ],
+                "isHeader": true,
+                "rowIndex": 0,
+                "text": "Qty"
+              },
+              {
+                "boundingBox": [
+                  331,
+                  204,
+                  400,
+                  204,
+                  400,
+                  243,
+                  331,
+                  243
+                ],
+                "columnIndex": 3,
+                "elements": [
+                  "#/readResults/0/lines/19/words/0"
+                ],
+                "isHeader": true,
+                "rowIndex": 0,
+                "text": "Amount"
+              },
+              {
+                "boundingBox": [
+                  0,
+                  244,
+                  211,
+                  243,
+                  211,
+                  257,
+                  0,
+                  257
+                ],
+                "columnIndex": 0,
+                "elements": [
+                  "#/readResults/0/lines/20/words/0",
+                  "#/readResults/0/lines/20/words/1",
+                  "#/readResults/0/lines/20/words/2",
+                  "#/readResults/0/lines/20/words/3",
+                  "#/readResults/0/lines/20/words/4",
+                  "#/readResults/0/lines/20/words/5"
+                ],
+                "isHeader": false,
+                "rowIndex": 1,
+                "text": "Double White Duvet, Washed & Pressed"
+              },
+              {
+                "boundingBox": [
+                  211,
+                  243,
+                  283,
+                  243,
+                  283,
+                  256,
+                  211,
+                  257
+                ],
+                "columnIndex": 1,
+                "elements": [
+                  "#/readResults/0/lines/21/words/0"
+                ],
+                "isHeader": false,
+                "rowIndex": 1,
+                "text": "$10"
+              },
+              {
+                "boundingBox": [
+                  283,
+                  243,
+                  331,
+                  243,
+                  331,
+                  256,
+                  283,
+                  256
+                ],
+                "columnIndex": 2,
+                "elements": [
+                  "#/readResults/0/lines/23/words/0",
+                  "#/readResults/0/selectionMarks/0"
+                ],
+                "isHeader": false,
+                "rowIndex": 1,
+                "text": "--"
+              },
+              {
+                "boundingBox": [
+                  331,
+                  243,
+                  400,
+                  243,
+                  400,
+                  256,
+                  331,
+                  256
+                ],
+                "columnIndex": 3,
+                "elements": [
+                  "#/readResults/0/lines/22/words/0"
+                ],
+                "isHeader": false,
+                "rowIndex": 1,
+                "text": "$10"
+              },
+              {
+                "boundingBox": [
+                  0,
+                  257,
+                  211,
+                  257,
+                  211,
+                  269,
+                  0,
+                  270
+                ],
+                "columnIndex": 0,
+                "elements": [
+                  "#/readResults/0/lines/24/words/0",
+                  "#/readResults/0/lines/24/words/1",
+                  "#/readResults/0/lines/24/words/2",
+                  "#/readResults/0/lines/24/words/3",
+                  "#/readResults/0/lines/24/words/4",
+                  "#/readResults/0/lines/24/words/5"
+                ],
+                "isHeader": false,
+                "rowIndex": 2,
+                "text": "Double White Sheet, Washed & Pressed"
+              },
+              {
+                "boundingBox": [
+                  211,
+                  257,
+                  283,
+                  256,
+                  283,
+                  269,
+                  211,
+                  269
+                ],
+                "columnIndex": 1,
+                "elements": [
+                  "#/readResults/0/lines/25/words/0"
+                ],
+                "isHeader": false,
+                "rowIndex": 2,
+                "text": "$10"
+              },
+              {
+                "boundingBox": [
+                  283,
+                  256,
+                  331,
+                  256,
+                  331,
+                  269,
+                  283,
+                  269
+                ],
+                "columnIndex": 2,
+                "elements": [],
+                "isHeader": false,
+                "rowIndex": 2,
+                "text": ""
+              },
+              {
+                "boundingBox": [
+                  331,
+                  256,
+                  400,
+                  256,
+                  399,
+                  269,
+                  331,
+                  269
+                ],
+                "columnIndex": 3,
+                "elements": [
+                  "#/readResults/0/lines/26/words/0"
+                ],
+                "isHeader": false,
+                "rowIndex": 2,
+                "text": "$10"
+              },
+              {
+                "boundingBox": [
+                  0,
+                  270,
+                  211,
+                  269,
+                  211,
+                  281,
+                  0,
+                  282
+                ],
+                "columnIndex": 0,
+                "elements": [
+                  "#/readResults/0/lines/27/words/0",
+                  "#/readResults/0/lines/27/words/1",
+                  "#/readResults/0/lines/27/words/2",
+                  "#/readResults/0/lines/27/words/3",
+                  "#/readResults/0/lines/27/words/4",
+                  "#/readResults/0/lines/27/words/5"
+                ],
+                "isHeader": false,
+                "rowIndex": 3,
+                "text": "Single White Duvet, Washed & Pressed"
+              },
+              {
+                "boundingBox": [
+                  211,
+                  269,
+                  283,
+                  269,
+                  283,
+                  281,
+                  211,
+                  281
+                ],
+                "columnIndex": 1,
+                "elements": [
+                  "#/readResults/0/lines/28/words/0",
+                  "#/readResults/0/selectionMarks/1"
+                ],
+                "isHeader": false,
+                "rowIndex": 3,
+                "text": "$7.5"
+              },
+              {
+                "boundingBox": [
+                  283,
+                  269,
+                  331,
+                  269,
+                  331,
+                  281,
+                  283,
+                  281
+                ],
+                "columnIndex": 2,
+                "elements": [
+                  "#/readResults/0/lines/23/words/1",
+                  "#/readResults/0/lines/29/words/0"
+                ],
+                "isHeader": false,
+                "rowIndex": 3,
+                "text": "- 10"
+              },
+              {
+                "boundingBox": [
+                  331,
+                  269,
+                  399,
+                  269,
+                  399,
+                  281,
+                  331,
+                  281
+                ],
+                "columnIndex": 3,
+                "elements": [
+                  "#/readResults/0/lines/30/words/0"
+                ],
+                "isHeader": false,
+                "rowIndex": 3,
+                "text": "$75"
+              },
+              {
+                "boundingBox": [
+                  0,
+                  282,
+                  211,
+                  281,
+                  211,
+                  294,
+                  0,
+                  294
+                ],
+                "columnIndex": 0,
+                "elements": [
+                  "#/readResults/0/lines/31/words/0",
+                  "#/readResults/0/lines/31/words/1",
+                  "#/readResults/0/lines/31/words/2",
+                  "#/readResults/0/lines/31/words/3",
+                  "#/readResults/0/lines/31/words/4",
+                  "#/readResults/0/lines/31/words/5"
+                ],
+                "isHeader": false,
+                "rowIndex": 4,
+                "text": "Single White Sheet, Washed & Pressed"
+              },
+              {
+                "boundingBox": [
+                  211,
+                  281,
+                  283,
+                  281,
+                  283,
+                  294,
+                  211,
+                  294
+                ],
+                "columnIndex": 1,
+                "elements": [
+                  "#/readResults/0/lines/32/words/0",
+                  "#/readResults/0/selectionMarks/2"
+                ],
+                "isHeader": false,
+                "rowIndex": 4,
+                "text": "$7.5"
+              },
+              {
+                "boundingBox": [
+                  283,
+                  281,
+                  331,
+                  281,
+                  331,
+                  294,
+                  283,
+                  294
+                ],
+                "columnIndex": 2,
+                "elements": [
+                  "#/readResults/0/lines/33/words/0"
+                ],
+                "isHeader": false,
+                "rowIndex": 4,
+                "text": "10"
+              },
+              {
+                "boundingBox": [
+                  331,
+                  281,
+                  399,
+                  281,
+                  399,
+                  294,
+                  331,
+                  294
+                ],
+                "columnIndex": 3,
+                "elements": [
+                  "#/readResults/0/lines/34/words/0"
+                ],
+                "isHeader": false,
+                "rowIndex": 4,
+                "text": "$75"
+              },
+              {
+                "boundingBox": [
+                  0,
+                  294,
+                  211,
+                  294,
+                  211,
+                  314,
+                  0,
+                  314
+                ],
+                "columnIndex": 0,
+                "elements": [
+                  "#/readResults/0/lines/35/words/0",
+                  "#/readResults/0/lines/35/words/1",
+                  "#/readResults/0/lines/35/words/2",
+                  "#/readResults/0/lines/35/words/3",
+                  "#/readResults/0/lines/35/words/4"
+                ],
+                "isHeader": false,
+                "rowIndex": 5,
+                "text": "Cotton Blanket, Washed & Pressed"
+              },
+              {
+                "boundingBox": [
+                  211,
+                  294,
+                  283,
+                  294,
+                  283,
+                  314,
+                  211,
+                  314
+                ],
+                "columnIndex": 1,
+                "elements": [
+                  "#/readResults/0/lines/36/words/0"
+                ],
+                "isHeader": false,
+                "rowIndex": 5,
+                "text": "$10"
+              },
+              {
+                "boundingBox": [
+                  283,
+                  294,
+                  331,
+                  294,
+                  331,
+                  315,
+                  283,
+                  314
+                ],
+                "columnIndex": 2,
+                "elements": [],
+                "isHeader": false,
+                "rowIndex": 5,
+                "text": ""
+              },
+              {
+                "boundingBox": [
+                  331,
+                  294,
+                  399,
+                  294,
+                  399,
+                  314,
+                  331,
+                  315
+                ],
+                "columnIndex": 3,
+                "elements": [
+                  "#/readResults/0/lines/37/words/0"
+                ],
+                "isHeader": false,
+                "rowIndex": 5,
+                "text": "$10"
+              }
+            ],
+            "columns": 4,
+            "rows": 6
+          }
+        ]
+      }
+    ],
+    "readResults": [
+      {
+        "angle": 0,
+        "height": 518,
+        "lines": [
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              15,
+              25,
+              226,
+              25,
+              226,
+              59,
+              15,
+              59
+            ],
+            "text": "INVOICE",
+            "words": [
+              {
+                "boundingBox": [
+                  16,
+                  25,
+                  208,
+                  26,
+                  208,
+                  60,
+                  15,
+                  60
+                ],
+                "confidence": 0.994,
+                "text": "INVOICE"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              288,
+              17,
+              384,
+              17,
+              384,
+              27,
+              288,
+              27
+            ],
+            "text": "Welder Dry Clean Services",
+            "words": [
+              {
+                "boundingBox": [
+                  289,
+                  18,
+                  314,
+                  18,
+                  313,
+                  27,
+                  289,
+                  27
+                ],
+                "confidence": 0.986,
+                "text": "Welder"
+              },
+              {
+                "boundingBox": [
+                  315,
+                  18,
+                  328,
+                  18,
+                  328,
+                  27,
+                  315,
+                  27
+                ],
+                "confidence": 0.997,
+                "text": "Dry"
+              },
+              {
+                "boundingBox": [
+                  330,
+                  18,
+                  351,
+                  18,
+                  351,
+                  27,
+                  330,
+                  27
+                ],
+                "confidence": 0.994,
+                "text": "Clean"
+              },
+              {
+                "boundingBox": [
+                  353,
+                  18,
+                  384,
+                  18,
+                  384,
+                  27,
+                  353,
+                  27
+                ],
+                "confidence": 0.994,
+                "text": "Services"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              324,
+              27,
+              384,
+              27,
+              384,
+              35,
+              324,
+              35
+            ],
+            "text": "189 Monsoon St.",
+            "words": [
+              {
+                "boundingBox": [
+                  325,
+                  27,
+                  336,
+                  27,
+                  336,
+                  35,
+                  325,
+                  35
+                ],
+                "confidence": 0.997,
+                "text": "189"
+              },
+              {
+                "boundingBox": [
+                  338,
+                  27,
+                  371,
+                  28,
+                  371,
+                  35,
+                  338,
+                  35
+                ],
+                "confidence": 0.991,
+                "text": "Monsoon"
+              },
+              {
+                "boundingBox": [
+                  373,
+                  28,
+                  385,
+                  28,
+                  385,
+                  36,
+                  373,
+                  35
+                ],
+                "confidence": 0.995,
+                "text": "St."
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              342,
+              36,
+              384,
+              36,
+              385,
+              43,
+              342,
+              43
+            ],
+            "text": "Atlanta, GA",
+            "words": [
+              {
+                "boundingBox": [
+                  343,
+                  36,
+                  371,
+                  36,
+                  371,
+                  44,
+                  343,
+                  43
+                ],
+                "confidence": 0.737,
+                "text": "Atlanta,"
+              },
+              {
+                "boundingBox": [
+                  372,
+                  36,
+                  382,
+                  36,
+                  382,
+                  44,
+                  372,
+                  44
+                ],
+                "confidence": 0.995,
+                "text": "GA"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              335,
+              44,
+              384,
+              44,
+              384,
+              52,
+              335,
+              52
+            ],
+            "text": "555-348-1815",
+            "words": [
+              {
+                "boundingBox": [
+                  336,
+                  45,
+                  383,
+                  45,
+                  383,
+                  52,
+                  336,
+                  52
+                ],
+                "confidence": 0.96,
+                "text": "555-348-1815"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              280,
+              52,
+              384,
+              52,
+              384,
+              62,
+              280,
+              61
+            ],
+            "text": "info@welderdryclean.sp.com",
+            "words": [
+              {
+                "boundingBox": [
+                  280,
+                  52,
+                  381,
+                  54,
+                  381,
+                  61,
+                  280,
+                  62
+                ],
+                "confidence": 0.813,
+                "text": "info@welderdryclean.sp.com"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              282,
+              61,
+              384,
+              61,
+              384,
+              69,
+              282,
+              70
+            ],
+            "text": "www.welderdryclean.sp.com",
+            "words": [
+              {
+                "boundingBox": [
+                  282,
+                  62,
+                  380,
+                  61,
+                  380,
+                  70,
+                  282,
+                  70
+                ],
+                "confidence": 0.707,
+                "text": "www.welderdryclean.sp.com"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              16,
+              114,
+              134,
+              113,
+              134,
+              124,
+              16,
+              125
+            ],
+            "text": "Invoice Number: 255593",
+            "words": [
+              {
+                "boundingBox": [
+                  16,
+                  114,
+                  50,
+                  114,
+                  50,
+                  125,
+                  16,
+                  125
+                ],
+                "confidence": 0.986,
+                "text": "Invoice"
+              },
+              {
+                "boundingBox": [
+                  52,
+                  114,
+                  96,
+                  114,
+                  96,
+                  125,
+                  52,
+                  125
+                ],
+                "confidence": 0.995,
+                "text": "Number:"
+              },
+              {
+                "boundingBox": [
+                  98,
+                  114,
+                  134,
+                  114,
+                  134,
+                  125,
+                  98,
+                  125
+                ],
+                "confidence": 0.996,
+                "text": "255593"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              223,
+              114,
+              270,
+              114,
+              269,
+              125,
+              223,
+              125
+            ],
+            "text": "Billed to:",
+            "words": [
+              {
+                "boundingBox": [
+                  224,
+                  115,
+                  251,
+                  115,
+                  251,
+                  125,
+                  224,
+                  125
+                ],
+                "confidence": 0.994,
+                "text": "Billed"
+              },
+              {
+                "boundingBox": [
+                  253,
+                  115,
+                  270,
+                  115,
+                  270,
+                  125,
+                  253,
+                  125
+                ],
+                "confidence": 0.997,
+                "text": "to:"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              15,
+              126,
+              123,
+              125,
+              123,
+              136,
+              15,
+              137
+            ],
+            "text": "Date: May - 26 - 2025",
+            "words": [
+              {
+                "boundingBox": [
+                  16,
+                  126,
+                  41,
+                  126,
+                  41,
+                  137,
+                  16,
+                  137
+                ],
+                "confidence": 0.995,
+                "text": "Date:"
+              },
+              {
+                "boundingBox": [
+                  43,
+                  126,
+                  65,
+                  126,
+                  65,
+                  137,
+                  44,
+                  137
+                ],
+                "confidence": 0.999,
+                "text": "May"
+              },
+              {
+                "boundingBox": [
+                  67,
+                  126,
+                  73,
+                  126,
+                  72,
+                  137,
+                  67,
+                  137
+                ],
+                "confidence": 0.997,
+                "text": "-"
+              },
+              {
+                "boundingBox": [
+                  75,
+                  126,
+                  87,
+                  126,
+                  86,
+                  137,
+                  75,
+                  137
+                ],
+                "confidence": 0.998,
+                "text": "26"
+              },
+              {
+                "boundingBox": [
+                  90,
+                  126,
+                  96,
+                  126,
+                  96,
+                  137,
+                  90,
+                  137
+                ],
+                "confidence": 0.996,
+                "text": "-"
+              },
+              {
+                "boundingBox": [
+                  98,
+                  126,
+                  122,
+                  126,
+                  122,
+                  136,
+                  98,
+                  137
+                ],
+                "confidence": 0.994,
+                "text": "2025"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              224,
+              126,
+              371,
+              126,
+              371,
+              137,
+              224,
+              137
+            ],
+            "text": "Byrd Student Accommodation",
+            "words": [
+              {
+                "boundingBox": [
+                  225,
+                  127,
+                  245,
+                  127,
+                  245,
+                  138,
+                  225,
+                  138
+                ],
+                "confidence": 0.991,
+                "text": "Byrd"
+              },
+              {
+                "boundingBox": [
+                  248,
+                  127,
+                  287,
+                  127,
+                  287,
+                  138,
+                  248,
+                  138
+                ],
+                "confidence": 0.996,
+                "text": "Student"
+              },
+              {
+                "boundingBox": [
+                  289,
+                  127,
+                  369,
+                  126,
+                  369,
+                  138,
+                  289,
+                  138
+                ],
+                "confidence": 0.994,
+                "text": "Accommodation"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              15,
+              138,
+              120,
+              137,
+              120,
+              147,
+              15,
+              148
+            ],
+            "text": "Due: Jun - 06 - 2025",
+            "words": [
+              {
+                "boundingBox": [
+                  16,
+                  138,
+                  38,
+                  138,
+                  38,
+                  148,
+                  16,
+                  149
+                ],
+                "confidence": 0.994,
+                "text": "Due:"
+              },
+              {
+                "boundingBox": [
+                  40,
+                  138,
+                  58,
+                  138,
+                  58,
+                  148,
+                  40,
+                  148
+                ],
+                "confidence": 0.998,
+                "text": "Jun"
+              },
+              {
+                "boundingBox": [
+                  62,
+                  138,
+                  67,
+                  138,
+                  67,
+                  148,
+                  62,
+                  148
+                ],
+                "confidence": 0.996,
+                "text": "-"
+              },
+              {
+                "boundingBox": [
+                  69,
+                  138,
+                  83,
+                  138,
+                  82,
+                  148,
+                  69,
+                  148
+                ],
+                "confidence": 0.999,
+                "text": "06"
+              },
+              {
+                "boundingBox": [
+                  86,
+                  138,
+                  92,
+                  138,
+                  92,
+                  148,
+                  86,
+                  148
+                ],
+                "confidence": 0.996,
+                "text": "-"
+              },
+              {
+                "boundingBox": [
+                  94,
+                  137,
+                  118,
+                  137,
+                  118,
+                  148,
+                  94,
+                  148
+                ],
+                "confidence": 0.994,
+                "text": "2025"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              223,
+              138,
+              292,
+              138,
+              292,
+              149,
+              223,
+              148
+            ],
+            "text": "826 Flyers St.",
+            "words": [
+              {
+                "boundingBox": [
+                  224,
+                  138,
+                  241,
+                  139,
+                  241,
+                  149,
+                  224,
+                  149
+                ],
+                "confidence": 0.994,
+                "text": "826"
+              },
+              {
+                "boundingBox": [
+                  243,
+                  139,
+                  274,
+                  139,
+                  274,
+                  149,
+                  243,
+                  149
+                ],
+                "confidence": 0.994,
+                "text": "Flyers"
+              },
+              {
+                "boundingBox": [
+                  277,
+                  139,
+                  293,
+                  139,
+                  293,
+                  149,
+                  276,
+                  149
+                ],
+                "confidence": 0.997,
+                "text": "St."
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              225,
+              149,
+              292,
+              149,
+              292,
+              160,
+              224,
+              159
+            ],
+            "text": "Baltimore, MD",
+            "words": [
+              {
+                "boundingBox": [
+                  225,
+                  149,
+                  273,
+                  150,
+                  273,
+                  161,
+                  225,
+                  159
+                ],
+                "confidence": 0.949,
+                "text": "Baltimore,"
+              },
+              {
+                "boundingBox": [
+                  275,
+                  150,
+                  290,
+                  150,
+                  290,
+                  161,
+                  275,
+                  161
+                ],
+                "confidence": 0.996,
+                "text": "MD"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              223,
+              161,
+              289,
+              161,
+              289,
+              172,
+              223,
+              171
+            ],
+            "text": "555 152 6266",
+            "words": [
+              {
+                "boundingBox": [
+                  224,
+                  161,
+                  241,
+                  162,
+                  241,
+                  172,
+                  224,
+                  172
+                ],
+                "confidence": 0.994,
+                "text": "555"
+              },
+              {
+                "boundingBox": [
+                  243,
+                  162,
+                  260,
+                  162,
+                  259,
+                  172,
+                  243,
+                  172
+                ],
+                "confidence": 0.997,
+                "text": "152"
+              },
+              {
+                "boundingBox": [
+                  262,
+                  162,
+                  287,
+                  162,
+                  286,
+                  172,
+                  262,
+                  172
+                ],
+                "confidence": 0.994,
+                "text": "6266"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              223,
+              172,
+              365,
+              173,
+              365,
+              185,
+              223,
+              184
+            ],
+            "text": "info@byrsstudentacc.sp.com",
+            "words": [
+              {
+                "boundingBox": [
+                  223,
+                  173,
+                  360,
+                  174,
+                  360,
+                  185,
+                  223,
+                  184
+                ],
+                "confidence": 0.991,
+                "text": "info@byrsstudentacc.sp.com"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              16,
+              228,
+              74,
+              228,
+              74,
+              240,
+              16,
+              240
+            ],
+            "text": "Description",
+            "words": [
+              {
+                "boundingBox": [
+                  16,
+                  229,
+                  73,
+                  229,
+                  72,
+                  240,
+                  16,
+                  240
+                ],
+                "confidence": 0.99,
+                "text": "Description"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              222,
+              228,
+              270,
+              228,
+              270,
+              239,
+              222,
+              239
+            ],
+            "text": "Unit Cost",
+            "words": [
+              {
+                "boundingBox": [
+                  222,
+                  229,
+                  243,
+                  229,
+                  242,
+                  239,
+                  222,
+                  239
+                ],
+                "confidence": 0.994,
+                "text": "Unit"
+              },
+              {
+                "boundingBox": [
+                  245,
+                  229,
+                  270,
+                  229,
+                  269,
+                  239,
+                  244,
+                  239
+                ],
+                "confidence": 0.994,
+                "text": "Cost"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              297,
+              230,
+              314,
+              231,
+              314,
+              240,
+              297,
+              239
+            ],
+            "text": "Qty",
+            "words": [
+              {
+                "boundingBox": [
+                  297,
+                  230,
+                  314,
+                  231,
+                  313,
+                  240,
+                  297,
+                  239
+                ],
+                "confidence": 0.772,
+                "text": "Qty"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              343,
+              228,
+              385,
+              228,
+              384,
+              238,
+              343,
+              238
+            ],
+            "text": "Amount",
+            "words": [
+              {
+                "boundingBox": [
+                  344,
+                  228,
+                  384,
+                  229,
+                  384,
+                  239,
+                  344,
+                  238
+                ],
+                "confidence": 0.994,
+                "text": "Amount"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              16,
+              246,
+              199,
+              246,
+              199,
+              257,
+              16,
+              257
+            ],
+            "text": "Double White Duvet, Washed & Pressed",
+            "words": [
+              {
+                "boundingBox": [
+                  16,
+                  247,
+                  49,
+                  247,
+                  49,
+                  257,
+                  16,
+                  258
+                ],
+                "confidence": 0.994,
+                "text": "Double"
+              },
+              {
+                "boundingBox": [
+                  51,
+                  247,
+                  78,
+                  247,
+                  78,
+                  257,
+                  51,
+                  257
+                ],
+                "confidence": 0.996,
+                "text": "White"
+              },
+              {
+                "boundingBox": [
+                  80,
+                  247,
+                  110,
+                  247,
+                  110,
+                  257,
+                  80,
+                  257
+                ],
+                "confidence": 0.995,
+                "text": "Duvet,"
+              },
+              {
+                "boundingBox": [
+                  113,
+                  247,
+                  149,
+                  247,
+                  149,
+                  257,
+                  113,
+                  257
+                ],
+                "confidence": 0.996,
+                "text": "Washed"
+              },
+              {
+                "boundingBox": [
+                  152,
+                  247,
+                  158,
+                  247,
+                  158,
+                  257,
+                  152,
+                  257
+                ],
+                "confidence": 0.996,
+                "text": "&"
+              },
+              {
+                "boundingBox": [
+                  161,
+                  247,
+                  198,
+                  247,
+                  198,
+                  257,
+                  161,
+                  257
+                ],
+                "confidence": 0.996,
+                "text": "Pressed"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              234,
+              246,
+              252,
+              247,
+              251,
+              255,
+              234,
+              255
+            ],
+            "text": "$10",
+            "words": [
+              {
+                "boundingBox": [
+                  235,
+                  246,
+                  250,
+                  246,
+                  250,
+                  255,
+                  235,
+                  254
+                ],
+                "confidence": 0.997,
+                "text": "$10"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              344,
+              246,
+              360,
+              247,
+              360,
+              255,
+              344,
+              255
+            ],
+            "text": "$10",
+            "words": [
+              {
+                "boundingBox": [
+                  344,
+                  246,
+                  360,
+                  246,
+                  359,
+                  255,
+                  344,
+                  254
+                ],
+                "confidence": 0.994,
+                "text": "$10"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              309,
+              247,
+              310,
+              275,
+              301,
+              275,
+              301,
+              247
+            ],
+            "text": "-- -",
+            "words": [
+              {
+                "boundingBox": [
+                  309,
+                  247,
+                  309,
+                  261,
+                  301,
+                  261,
+                  302,
+                  247
+                ],
+                "confidence": 0.833,
+                "text": "--"
+              },
+              {
+                "boundingBox": [
+                  310,
+                  269,
+                  310,
+                  273,
+                  302,
+                  273,
+                  302,
+                  269
+                ],
+                "confidence": 0.002,
+                "text": "-"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              16,
+              258,
+              199,
+              258,
+              199,
+              269,
+              16,
+              269
+            ],
+            "text": "Double White Sheet, Washed & Pressed",
+            "words": [
+              {
+                "boundingBox": [
+                  17,
+                  259,
+                  49,
+                  259,
+                  49,
+                  270,
+                  17,
+                  269
+                ],
+                "confidence": 0.996,
+                "text": "Double"
+              },
+              {
+                "boundingBox": [
+                  51,
+                  259,
+                  79,
+                  259,
+                  79,
+                  270,
+                  51,
+                  270
+                ],
+                "confidence": 0.996,
+                "text": "White"
+              },
+              {
+                "boundingBox": [
+                  81,
+                  259,
+                  111,
+                  259,
+                  111,
+                  270,
+                  81,
+                  270
+                ],
+                "confidence": 0.959,
+                "text": "Sheet,"
+              },
+              {
+                "boundingBox": [
+                  113,
+                  259,
+                  149,
+                  259,
+                  149,
+                  270,
+                  113,
+                  270
+                ],
+                "confidence": 0.996,
+                "text": "Washed"
+              },
+              {
+                "boundingBox": [
+                  152,
+                  259,
+                  158,
+                  259,
+                  158,
+                  270,
+                  152,
+                  270
+                ],
+                "confidence": 0.997,
+                "text": "&"
+              },
+              {
+                "boundingBox": [
+                  161,
+                  259,
+                  198,
+                  259,
+                  198,
+                  269,
+                  161,
+                  270
+                ],
+                "confidence": 0.996,
+                "text": "Pressed"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              234,
+              258,
+              252,
+              258,
+              252,
+              267,
+              234,
+              267
+            ],
+            "text": "$10",
+            "words": [
+              {
+                "boundingBox": [
+                  235,
+                  258,
+                  250,
+                  258,
+                  250,
+                  267,
+                  235,
+                  267
+                ],
+                "confidence": 0.997,
+                "text": "$10"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              344,
+              258,
+              360,
+              259,
+              360,
+              267,
+              344,
+              267
+            ],
+            "text": "$10",
+            "words": [
+              {
+                "boundingBox": [
+                  344,
+                  258,
+                  360,
+                  258,
+                  359,
+                  267,
+                  344,
+                  266
+                ],
+                "confidence": 0.994,
+                "text": "$10"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              16,
+              270,
+              195,
+              270,
+              195,
+              281,
+              16,
+              281
+            ],
+            "text": "Single White Duvet, Washed & Pressed",
+            "words": [
+              {
+                "boundingBox": [
+                  17,
+                  271,
+                  44,
+                  271,
+                  44,
+                  282,
+                  17,
+                  282
+                ],
+                "confidence": 0.995,
+                "text": "Single"
+              },
+              {
+                "boundingBox": [
+                  46,
+                  271,
+                  74,
+                  271,
+                  74,
+                  282,
+                  46,
+                  282
+                ],
+                "confidence": 0.992,
+                "text": "White"
+              },
+              {
+                "boundingBox": [
+                  76,
+                  271,
+                  106,
+                  271,
+                  106,
+                  282,
+                  76,
+                  282
+                ],
+                "confidence": 0.979,
+                "text": "Duvet,"
+              },
+              {
+                "boundingBox": [
+                  108,
+                  271,
+                  145,
+                  271,
+                  145,
+                  281,
+                  108,
+                  282
+                ],
+                "confidence": 0.996,
+                "text": "Washed"
+              },
+              {
+                "boundingBox": [
+                  147,
+                  271,
+                  154,
+                  271,
+                  154,
+                  281,
+                  147,
+                  281
+                ],
+                "confidence": 0.994,
+                "text": "&"
+              },
+              {
+                "boundingBox": [
+                  156,
+                  271,
+                  194,
+                  271,
+                  193,
+                  281,
+                  156,
+                  281
+                ],
+                "confidence": 0.996,
+                "text": "Pressed"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              235,
+              271,
+              255,
+              271,
+              255,
+              280,
+              235,
+              279
+            ],
+            "text": "$7.5",
+            "words": [
+              {
+                "boundingBox": [
+                  235,
+                  271,
+                  253,
+                  271,
+                  253,
+                  280,
+                  235,
+                  279
+                ],
+                "confidence": 0.922,
+                "text": "$7.5"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              301,
+              270,
+              314,
+              271,
+              314,
+              280,
+              301,
+              280
+            ],
+            "text": "10",
+            "words": [
+              {
+                "boundingBox": [
+                  302,
+                  270,
+                  311,
+                  270,
+                  311,
+                  280,
+                  301,
+                  279
+                ],
+                "confidence": 0.998,
+                "text": "10"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              344,
+              270,
+              360,
+              270,
+              361,
+              280,
+              344,
+              280
+            ],
+            "text": "$75",
+            "words": [
+              {
+                "boundingBox": [
+                  344,
+                  270,
+                  361,
+                  270,
+                  361,
+                  280,
+                  344,
+                  280
+                ],
+                "confidence": 0.994,
+                "text": "$75"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              16,
+              282,
+              195,
+              282,
+              195,
+              293,
+              17,
+              293
+            ],
+            "text": "Single White Sheet, Washed & Pressed",
+            "words": [
+              {
+                "boundingBox": [
+                  17,
+                  283,
+                  44,
+                  283,
+                  44,
+                  293,
+                  17,
+                  294
+                ],
+                "confidence": 0.996,
+                "text": "Single"
+              },
+              {
+                "boundingBox": [
+                  46,
+                  283,
+                  74,
+                  283,
+                  74,
+                  293,
+                  46,
+                  293
+                ],
+                "confidence": 0.996,
+                "text": "White"
+              },
+              {
+                "boundingBox": [
+                  76,
+                  283,
+                  106,
+                  283,
+                  106,
+                  293,
+                  76,
+                  293
+                ],
+                "confidence": 0.994,
+                "text": "Sheet,"
+              },
+              {
+                "boundingBox": [
+                  108,
+                  283,
+                  145,
+                  283,
+                  145,
+                  293,
+                  108,
+                  293
+                ],
+                "confidence": 0.996,
+                "text": "Washed"
+              },
+              {
+                "boundingBox": [
+                  147,
+                  283,
+                  154,
+                  283,
+                  154,
+                  293,
+                  147,
+                  293
+                ],
+                "confidence": 0.994,
+                "text": "&"
+              },
+              {
+                "boundingBox": [
+                  156,
+                  283,
+                  193,
+                  283,
+                  193,
+                  293,
+                  156,
+                  293
+                ],
+                "confidence": 0.996,
+                "text": "Pressed"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              234,
+              283,
+              255,
+              283,
+              254,
+              292,
+              234,
+              292
+            ],
+            "text": "$7.5",
+            "words": [
+              {
+                "boundingBox": [
+                  235,
+                  283,
+                  253,
+                  283,
+                  253,
+                  292,
+                  235,
+                  292
+                ],
+                "confidence": 0.994,
+                "text": "$7.5"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              300,
+              283,
+              313,
+              283,
+              312,
+              292,
+              300,
+              292
+            ],
+            "text": "10",
+            "words": [
+              {
+                "boundingBox": [
+                  301,
+                  283,
+                  310,
+                  283,
+                  310,
+                  292,
+                  301,
+                  292
+                ],
+                "confidence": 0.998,
+                "text": "10"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              344,
+              282,
+              360,
+              282,
+              360,
+              292,
+              344,
+              292
+            ],
+            "text": "$75",
+            "words": [
+              {
+                "boundingBox": [
+                  344,
+                  282,
+                  360,
+                  282,
+                  360,
+                  292,
+                  344,
+                  292
+                ],
+                "confidence": 0.782,
+                "text": "$75"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              16,
+              294,
+              176,
+              294,
+              176,
+              305,
+              16,
+              305
+            ],
+            "text": "Cotton Blanket, Washed & Pressed",
+            "words": [
+              {
+                "boundingBox": [
+                  16,
+                  295,
+                  47,
+                  295,
+                  47,
+                  306,
+                  16,
+                  305
+                ],
+                "confidence": 0.995,
+                "text": "Cotton"
+              },
+              {
+                "boundingBox": [
+                  49,
+                  295,
+                  87,
+                  295,
+                  87,
+                  306,
+                  49,
+                  306
+                ],
+                "confidence": 0.932,
+                "text": "Blanket,"
+              },
+              {
+                "boundingBox": [
+                  89,
+                  295,
+                  126,
+                  295,
+                  126,
+                  306,
+                  89,
+                  306
+                ],
+                "confidence": 0.994,
+                "text": "Washed"
+              },
+              {
+                "boundingBox": [
+                  129,
+                  295,
+                  134,
+                  295,
+                  134,
+                  306,
+                  128,
+                  306
+                ],
+                "confidence": 0.997,
+                "text": "&"
+              },
+              {
+                "boundingBox": [
+                  137,
+                  295,
+                  174,
+                  295,
+                  174,
+                  306,
+                  137,
+                  306
+                ],
+                "confidence": 0.995,
+                "text": "Pressed"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              233,
+              294,
+              252,
+              294,
+              251,
+              304,
+              233,
+              304
+            ],
+            "text": "$10",
+            "words": [
+              {
+                "boundingBox": [
+                  235,
+                  294,
+                  251,
+                  294,
+                  251,
+                  304,
+                  235,
+                  304
+                ],
+                "confidence": 0.997,
+                "text": "$10"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              344,
+              294,
+              360,
+              295,
+              360,
+              304,
+              344,
+              303
+            ],
+            "text": "$10",
+            "words": [
+              {
+                "boundingBox": [
+                  345,
+                  294,
+                  360,
+                  295,
+                  359,
+                  304,
+                  344,
+                  303
+                ],
+                "confidence": 0.997,
+                "text": "$10"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              16,
+              357,
+              98,
+              357,
+              99,
+              368,
+              16,
+              369
+            ],
+            "text": "Subtotal $180",
+            "words": [
+              {
+                "boundingBox": [
+                  17,
+                  357,
+                  67,
+                  357,
+                  67,
+                  369,
+                  16,
+                  369
+                ],
+                "confidence": 0.994,
+                "text": "Subtotal"
+              },
+              {
+                "boundingBox": [
+                  70,
+                  357,
+                  96,
+                  357,
+                  96,
+                  369,
+                  70,
+                  369
+                ],
+                "confidence": 0.994,
+                "text": "$180"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              16,
+              372,
+              87,
+              371,
+              87,
+              383,
+              16,
+              383
+            ],
+            "text": "Tax Rate 5%",
+            "words": [
+              {
+                "boundingBox": [
+                  17,
+                  372,
+                  35,
+                  372,
+                  35,
+                  384,
+                  17,
+                  384
+                ],
+                "confidence": 0.994,
+                "text": "Tax"
+              },
+              {
+                "boundingBox": [
+                  38,
+                  372,
+                  65,
+                  372,
+                  64,
+                  384,
+                  38,
+                  384
+                ],
+                "confidence": 0.994,
+                "text": "Rate"
+              },
+              {
+                "boundingBox": [
+                  69,
+                  372,
+                  83,
+                  372,
+                  83,
+                  384,
+                  68,
+                  384
+                ],
+                "confidence": 0.959,
+                "text": "5%"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              16,
+              386,
+              64,
+              385,
+              64,
+              397,
+              16,
+              397
+            ],
+            "text": "Tax $171",
+            "words": [
+              {
+                "boundingBox": [
+                  17,
+                  387,
+                  35,
+                  386,
+                  35,
+                  398,
+                  17,
+                  397
+                ],
+                "confidence": 0.992,
+                "text": "Tax"
+              },
+              {
+                "boundingBox": [
+                  39,
+                  386,
+                  64,
+                  386,
+                  64,
+                  397,
+                  39,
+                  397
+                ],
+                "confidence": 0.994,
+                "text": "$171"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              16,
+              400,
+              107,
+              400,
+              107,
+              412,
+              16,
+              412
+            ],
+            "text": "Delivery Fee $5",
+            "words": [
+              {
+                "boundingBox": [
+                  17,
+                  401,
+                  63,
+                  400,
+                  63,
+                  413,
+                  16,
+                  412
+                ],
+                "confidence": 0.994,
+                "text": "Delivery"
+              },
+              {
+                "boundingBox": [
+                  66,
+                  400,
+                  87,
+                  400,
+                  86,
+                  413,
+                  65,
+                  413
+                ],
+                "confidence": 0.997,
+                "text": "Fee"
+              },
+              {
+                "boundingBox": [
+                  91,
+                  400,
+                  105,
+                  400,
+                  105,
+                  412,
+                  90,
+                  413
+                ],
+                "confidence": 0.999,
+                "text": "$5"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              21,
+              420,
+              103,
+              420,
+              103,
+              435,
+              21,
+              435
+            ],
+            "text": "Total: $176",
+            "words": [
+              {
+                "boundingBox": [
+                  21,
+                  421,
+                  63,
+                  420,
+                  63,
+                  435,
+                  22,
+                  435
+                ],
+                "confidence": 0.99,
+                "text": "Total:"
+              },
+              {
+                "boundingBox": [
+                  66,
+                  420,
+                  99,
+                  420,
+                  99,
+                  435,
+                  66,
+                  435
+                ],
+                "confidence": 0.954,
+                "text": "$176"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              65,
+              480,
+              333,
+              479,
+              333,
+              491,
+              65,
+              491
+            ],
+            "text": "Due Date: Please pay invoice by June 6th at the latest.",
+            "words": [
+              {
+                "boundingBox": [
+                  66,
+                  480,
+                  85,
+                  480,
+                  85,
+                  491,
+                  66,
+                  491
+                ],
+                "confidence": 0.994,
+                "text": "Due"
+              },
+              {
+                "boundingBox": [
+                  87,
+                  480,
+                  113,
+                  480,
+                  113,
+                  491,
+                  87,
+                  491
+                ],
+                "confidence": 0.995,
+                "text": "Date:"
+              },
+              {
+                "boundingBox": [
+                  115,
+                  480,
+                  147,
+                  480,
+                  147,
+                  491,
+                  115,
+                  491
+                ],
+                "confidence": 0.995,
+                "text": "Please"
+              },
+              {
+                "boundingBox": [
+                  150,
+                  480,
+                  168,
+                  480,
+                  168,
+                  491,
+                  150,
+                  491
+                ],
+                "confidence": 0.997,
+                "text": "pay"
+              },
+              {
+                "boundingBox": [
+                  170,
+                  480,
+                  205,
+                  480,
+                  205,
+                  491,
+                  170,
+                  491
+                ],
+                "confidence": 0.994,
+                "text": "invoice"
+              },
+              {
+                "boundingBox": [
+                  207,
+                  480,
+                  220,
+                  480,
+                  220,
+                  491,
+                  207,
+                  491
+                ],
+                "confidence": 0.999,
+                "text": "by"
+              },
+              {
+                "boundingBox": [
+                  222,
+                  480,
+                  246,
+                  480,
+                  246,
+                  491,
+                  222,
+                  491
+                ],
+                "confidence": 0.965,
+                "text": "June"
+              },
+              {
+                "boundingBox": [
+                  248,
+                  480,
+                  265,
+                  480,
+                  265,
+                  491,
+                  248,
+                  491
+                ],
+                "confidence": 0.997,
+                "text": "6th"
+              },
+              {
+                "boundingBox": [
+                  267,
+                  480,
+                  278,
+                  480,
+                  278,
+                  491,
+                  267,
+                  491
+                ],
+                "confidence": 0.996,
+                "text": "at"
+              },
+              {
+                "boundingBox": [
+                  280,
+                  480,
+                  296,
+                  480,
+                  297,
+                  491,
+                  280,
+                  491
+                ],
+                "confidence": 0.997,
+                "text": "the"
+              },
+              {
+                "boundingBox": [
+                  299,
+                  480,
+                  333,
+                  480,
+                  333,
+                  491,
+                  299,
+                  491
+                ],
+                "confidence": 0.994,
+                "text": "latest."
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              128,
+              491,
+              275,
+              490,
+              275,
+              502,
+              128,
+              502
+            ],
+            "text": "Thank you for your business!",
+            "words": [
+              {
+                "boundingBox": [
+                  129,
+                  491,
+                  158,
+                  491,
+                  158,
+                  503,
+                  129,
+                  503
+                ],
+                "confidence": 0.994,
+                "text": "Thank"
+              },
+              {
+                "boundingBox": [
+                  160,
+                  491,
+                  178,
+                  491,
+                  178,
+                  503,
+                  160,
+                  503
+                ],
+                "confidence": 0.985,
+                "text": "you"
+              },
+              {
+                "boundingBox": [
+                  181,
+                  491,
+                  195,
+                  491,
+                  195,
+                  503,
+                  181,
+                  503
+                ],
+                "confidence": 0.997,
+                "text": "for"
+              },
+              {
+                "boundingBox": [
+                  197,
+                  491,
+                  220,
+                  491,
+                  220,
+                  503,
+                  197,
+                  503
+                ],
+                "confidence": 0.994,
+                "text": "your"
+              },
+              {
+                "boundingBox": [
+                  222,
+                  491,
+                  273,
+                  491,
+                  273,
+                  502,
+                  222,
+                  503
+                ],
+                "confidence": 0.986,
+                "text": "business!"
+              }
+            ]
+          }
+        ],
+        "page": 1,
+        "selectionMarks": [
+          {
+            "boundingBox": [
+              300,
+              249,
+              306,
+              249,
+              306,
+              256,
+              300,
+              256
+            ],
+            "confidence": 0.347,
+            "state": "unselected"
+          },
+          {
+            "boundingBox": [
+              248,
+              273,
+              254,
+              273,
+              254,
+              279,
+              248,
+              279
+            ],
+            "confidence": 0.25,
+            "state": "unselected"
+          },
+          {
+            "boundingBox": [
+              248,
+              284,
+              253,
+              284,
+              253,
+              290,
+              248,
+              290
+            ],
+            "confidence": 0.223,
+            "state": "unselected"
+          }
+        ],
+        "unit": "pixel",
+        "width": 400
+      }
+    ],
+    "version": "2.1.0"
+  },
+  "createdDateTime": "2022-09-16T05:37:48Z",
+  "lastUpdatedDateTime": "2022-09-16T05:37:52Z",
+  "status": "succeeded"
+}
