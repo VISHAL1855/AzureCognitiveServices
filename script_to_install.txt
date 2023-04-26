@@ -1,0 +1,1 @@
+for inst in cat /sc/.instances; do echo $inst; sh sc_6.2r.203_prod.12.348850_114_installer.sh -i $inst --tar sc_6.2r.203_prod.12.348850_114.tgz --fast; $inst/bin/smctl.sh start;done
