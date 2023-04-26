@@ -1,0 +1,86 @@
+import pytest
+from zslib.data_path import zen_auth
+from zslib.utils.zssh import ZSSH
+from zslib.utils.custom_logger.zlogger import Zlogger
+from zpytest.models.smui_models import User
+zlogger=Zlogger().customLogger()
+@pytest.fixture(scope="module",autouse=True)
+def setup(env,smui_session,script_configuration,script_common_section,config_filename):
+    setup_var={}
+    setup_var["configuration"] = env
+    setup_var["smui_credentials"] = script_configuration[config_filename]
+    smui_admin = smui_session(setup_var["smui_credentials"]["org_admin"],setup_var["smui_credentials"]["org_admin_pw"])
+    setup_var["smui_session"]=smui_admin
+    smrc_config = env["cloud"]["control_path"]["smrc"][0]
+    setup_var["smrc_session"] = ZSSH(smrc_config["mip"],smrc_config["username"],smrc_config["password"])
+    setup_var["proxy_ip"]=setup_var["configuration"]["cloud"]["data_path"]["sme"][5]["sip"]
+    setup_var["proxy_port"]=setup_var["smui_credentials"]["port"]
+    setup_var["user_id"]=setup_var["smui_credentials"]["user_id"]
+    yield setup_var
+
+@pytest.mark.webtest()
+def test_existing_user(setup,browse_using_sme_as_proxy):
+    smui_admin=setup["smui_session"]
+    UID=setup["user_id"]
+    response=smui_admin.administration.api_get_user_by_id(id=UID)
+    assert response['id']==setup["user_id"],"User is not present"
+    res,statuscode=browse_using_sme_as_proxy(sme_proxy_ip=setup["proxy_ip"],
+                                             url="https://aajtak.com/",
+                                             sme_proxy_port=setup["proxy_port"],
+                                             org_username="vjadhav@scoe.com",
+                                             org_password='admin1234',
+                                             status_code=True)
+    zlogger.info(statuscode)
+    input()
+    assert res.status_code ==200
+    smrc_admin=setup["smrc_session"]
+    result = smrc_admin.exec_remote(f"/sc/bin/smmgr -s show=rcusers | grep {UID} | awk '{{print ${3}}}'")[1]
+    assert int(result) == UID,"Test Failed"
+
+@pytest.mark.webtest()
+def test_new_user(setup):
+    smui_admin=setup["smui_session"]
+    zlogger.info("Creating new user.....")
+    newuser = User(name="newuser",password='admin',department='QA',groups='QA_G')
+    smui_admin.administration.api_create_user(user=newuser)
+    smui_admin.administration.activate()
+    zlogger.info("Fetching the user....")
+    response=smui_admin.administration.api_get_user_by_name(name="newuser")
+    UID_NEW=response['id']
+    assert response["name"] == "newuser","New user not created"
+    cloud_auth = zen_auth.CloudAuthManager("https://aajtak.com/", setup["proxy_ip"], setup["proxy_port"],
+                                           "newuser@scoe.com", 'admin')
+    res = cloud_auth.browse_url()
+    assert res.status_code == 200
+    smrc_admin = setup["smrc_session"]
+    result = smrc_admin.exec_remote(f"/sc/bin/smmgr -s show=rcusers | grep {UID_NEW} | awk '{{print ${3}}}'")[1]
+    assert int(result) == UID_NEW, "Test Failed"
+
+@pytest.mark.webtest()
+def test_update_delete_user(setup):
+    smui_admin=setup["smui_session"]
+    smrc_admin=setup["smrc_session"]
+    uid = setup["user_id2"]
+    response=smui_admin.administration.api_get_user_by_name(name='vishal@scoe.com')
+    zlogger.info(response)
+    assert response[0]['id'] == uid,"User not found"
+    user_info=User(email="vishal@scoe.com",name="vishal12",password='test1234',department='TEST_DEPT',groups='TEST_QA',)
+    res=smui_admin.administration.api_update_user_by_id(id=uid,user_info=user_info)
+    #assert res ==200 assertion remaining
+    smui_admin.administration.activate()
+    result = smrc_admin.exec_remote(f"/sc/bin/smmgr -s show=rcusers | grep {uid} '")
+    #assert result == assertion remaining
+    res1=smui_admin.administration.api_delete_user_by_id(id=uid)
+    smui_admin.administration.activate()
+    # assert result == assertion remaining
+    res2 = smrc_admin.exec_remote(f"/sc/bin/smmgr -s show=rcusers | grep {uid} '")
+    assert len(res2) == 0
+
+
+--------------------------------------------
+common_config.yaml:
+  org_admin: 'admin@6616368.zscalerone.net'
+  org_admin_pw: 'admin'
+  port: 9443
+  user_id: 6666798
+  user_id2: 6668144
